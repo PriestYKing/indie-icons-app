@@ -6,14 +6,14 @@ const Footer = () => {
   return (
     <footer className="flex items-center justify-between p-4 border-t w-full mt-10 h-32">
       <div className="flex flex-col">
-        <p>Released under the ISC License.</p>
-        <p>Copyright © 2025 Indic Inc.</p>
+        {/* <p>Released under the ISC License.</p> */}
+        <p>Copyright © 2025 Indie Inc.</p>
       </div>
-      <div className="flex items-center gap-4">
+      {/* <div className="flex items-center gap-4">
         <Link href="/">License</Link>
         <Link href="/">Privacy</Link>
         <Link href="/">Terms</Link>
-      </div>
+      </div> */}
       <div className="flex items-center gap-4">
         <Button>
           Powered by <i>WILL</i>

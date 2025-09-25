@@ -3,10 +3,10 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <nav className="w-full h-16 flex items-center justify-between px-10 py-4">
-      <p className="text-2xl cursor-pointer flex gap-2">
+      <Link href="/" className="text-2xl cursor-pointer flex gap-2">
         <img src="logo.svg" />
         Indie-Icons
-      </p>
+      </Link>
 
       <div className="flex items-center gap-4">
         <div>
